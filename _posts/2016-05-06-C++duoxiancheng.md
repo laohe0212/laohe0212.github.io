@@ -5,6 +5,7 @@ title: C++多线程编程
 <a href="https://wangxiaozhi123.github.io">返回</a>
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }}</p>
+<hr>
 ###一直对于多线程不太熟悉，甚至对很多多线程代码有误解。通过查阅资料和亲自尝试对多线程才稍微有些了解。
 
 ####下面请看代码
