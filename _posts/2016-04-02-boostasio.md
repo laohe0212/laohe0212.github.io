@@ -5,6 +5,7 @@ title: 在deepin下编写Boost.Asio代码的解决步骤
 <a href="https://wangxiaozhi123.github.io">返回</a>
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }}</p>
+<hr>
 最近部署程序和平时使用的Linux都转移到了Debian系
 
 在安装Boost时 发现了一点坑。
