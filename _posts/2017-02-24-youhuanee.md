@@ -1,9 +1,10 @@
----
+z---
 layout: default
 title: 优化nee
 ---
 <a href="https://wangxiaozhi123.github.io">返回</a>
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
+<hr>
 <p>{{ page.date | date_to_string }}</p>
 Nee语言之前是不支持for循环的。我今天花了一点时间增加了这个功能。如何实现的呢？
 
