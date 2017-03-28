@@ -2,10 +2,6 @@
 layout: default
 title: 王昱智的个人blog
 ---
-
-<style>
-.rightDiv{float:right;background:#f5f5f5;position:absolute;left:70%;top:20%}
-</style>
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
 <ul>
@@ -13,4 +9,3 @@ title: 王昱智的个人blog
 　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 　　　{% endfor %}
 </ul>
-<div class="rightDiv">大三寻求实习 <br>QQ:42937960<br>Github:<a href="https://github.com/wangxiaozhi123">我的github</a></div>
