@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 75 * (clientWidth / 750) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+    </script>
+    <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .video{
+                height: 100%;
+                width: 10rem;
+                position: fixed;
+            }
+            .video video {
+                height: 100%;
+                width: 10rem;
+                position: fixed;
+            }
+    </style>
+</head>
+<body>
+<div class="video" style="width: 10rem">
+	
+	<video controls="controls" autoplay="autoplay">
+  <source src="http://hten.isdg.cn/111.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+</div>
+
+</body>
+</html>
